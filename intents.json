@@ -1,0 +1,26 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":["hallo","hello","wake up","lets play","nikku","brain fry"
+            ],
+            "responses":["yes boss","at your survice boss","ready to go boss","boss","ready boss","good day boss","welcome boss",
+                "nikku control protocol booting boss"
+            ]
+        },
+        {
+            "tag":"bye",
+            "patterns":["you can go","give me a break","side please","you can leave","see you later","sleep time","close","exit"
+            ],
+            "responses":["ok boss","good day sir","going to sleep boss","shutting down boss"
+            ]
+        },
+        {
+            "tag":"health",
+            "patterns":["nikku how are you feeling","how are you","felling good today nikku","are you all right","check health"
+            ],
+            "responses":["fine boss","ok boss","perfect boss","i am fine boss"
+            ]
+        }
+    ]
+}
